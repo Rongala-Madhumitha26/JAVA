@@ -1,0 +1,81 @@
+1.
+package Pack1;
+public class File1 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Welcome to java");
+	}
+}
+
+Output:
+Welcome to java
+
+------------------------------------------------------------------
+2.
+display sum of 2 numbers
+
+package Pack1;
+public class File2 
+{
+	public static void main(String[] args) 
+	{
+		int a = 10, b = 20;
+		int c = a+b;
+		System.out.println("Sum = "+c);
+	}
+}
+
+Output:
+Sum = 30
+-------------------------------------------------------------------
+3.
+to display home address
+
+package Pack1;
+public class Home_Addr {
+	public static void main(String[] args) {
+		String name = "suresh";
+		String dno = "2-12/1";
+		String city = "surampalem";
+		String state = "ap";
+		System.out.println("Address :");
+		System.out.println("---------");
+		System.out.println("Name = "+name);
+		System.out.println("DNO = "+dno);
+		System.out.println("City = "+city);
+		System.out.println("State = "+state);
+	}
+}
+Output:
+Address
+---------
+Name = Suresh
+DNO = 2-12/1
+City = surampalem
+State = ap
+----------------------------------------------------------------------
+4.
+to display simple interest
+
+package Pack1;
+public class SI {
+	public static void main(String[] args) {
+		int p = 12000;
+		int r = 3;
+		int n = 2;
+		int si = (p*n*r)/100;
+		System.out.println("Simple Interest = "+si);
+	}
+}
+--------------------------------------------------------------------
+5.
+package Pack1;
+public class SI {
+	public static void main(String[] args) {
+		byte b = 10;
+		int i = b;
+		System.out.println("byte  = "+b);
+		System.out.println("int  = "+i);
+	}
+}
